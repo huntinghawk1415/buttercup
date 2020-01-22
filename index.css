@@ -33,17 +33,28 @@ body {
   border-right: 0px!important;
   width: 70%;
   border-radius: 4px 0 0 4px;
+  padding: 0 10px;
 }
 #auth button {
   width: 5rem;
   cursor: pointer;
   border-radius: 0 4px 4px 0;
+  background-color: #ccc;
 }
 #auth input:hover {
   border: 1px solid rgb(189, 189, 189);
+}
+#auth button:hover {
+  background-color: #ddd;
 }
 #auth input,
 #auth button {
   height: 30px;
   border: 1px solid #999;
+}
+.frame {
+  padding: 50px;
+}
+#main {
+  background-color: #f4f4f4;
 }
