@@ -5,24 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap">
-    <script src="./index.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+    <script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+    <script defer src="./index.js"></script>
     <title>For Eunjeong</title>
   </head>
-  <body class="frame">
-    <div id="auth" class="hidden">
-      <h1>Password</h1>
+  <body>
+    <div id="auth">
+      <h1>비밀번호</h1>
       <form id="auth-form">
         <input id="password-input" type="password" required>
-        <button>Enter</button>
+        <button>들어가기</button>
       </form>
     </div>
-    <div id="main">
-      <div id="modal-1">
-        <img src="./images/sad-floof.jfif" alt="sad fluffy">
-        <div class="modal-text">
-          Why do you have to go...
-        </div>
+    <div id="main" class="hidden">
+      <img id="sad-fluffy" src="./images/sad-floof.jfif" alt="sad fluffy">
+      <h1 id="header">이제 갔네...</h1>
+      <div id="content">
+        <p>
+          벌써 떠나야 할 시간이라니 못 믿어.
+          자기가 여기로 온 게 어제랑 같은데.
+          비록 지금은 같이 하는 시간이 끝났지만, 우린 같이 만들 추억이 아직 많아.
+        </p>
+        <p>
+          추억 얘기가 나와서 말인데... 우린 이미 같이 좋은 추억들을 많이 만들었어, 안 그래? 내 말을 못 믿겠음
+          <a href="./images/1.jpg" data-lightbox="memories">여기 클릭해</a>!
+          <a href="./images/2.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/3.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/4.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/5.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/6.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/7.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/8.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/9.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/10.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/11.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/12.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/13.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/14.jpg" data-lightbox="memories" class="hidden"></a>
+          <a href="./images/15.jpg" data-lightbox="memories" class="hidden"></a>
+        </p>
+        <p>
+          자긴 내 가장 친한 친구고 난 자기가 많이 그리울 거야.
+        </p>
+        <p>
+          너무 많이 사랑하고 곧 다시 만나자.
+        </p>
+        <p>온</p>
       </div>
     </div>
   </body>
